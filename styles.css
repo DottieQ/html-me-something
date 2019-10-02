@@ -1,21 +1,20 @@
 p {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 100px;
 	margin-left: 20px;
 	font-size: 15px;	
 }
 
-div {
+div.content {
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
 	padding-left: 80px;
-	border: 15px solid lightgray;
-	border-style: groove;
-	width: 650px;
+	max-width: 650;
+	margin: auto;
 	font-family: Trebuchet MS, sans-serif;
 }
+
 
 p.intro {
 	font-size: 16px;
@@ -24,7 +23,6 @@ p.intro {
 h3.color {
 	size: 35px;
 	color: white;
-	margin-right: 150px;
 }
 
 ul.style {
